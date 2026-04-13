@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
+//This chatbot helps educate South African citizens about online safety
 namespace CybersecurityChatbot
 {
     internal class Chatbot

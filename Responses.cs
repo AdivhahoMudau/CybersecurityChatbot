@@ -42,7 +42,9 @@ namespace CybersecurityChatbot
             {
                 foreach (string keyword in category.Value) {
                     if (userInput.Contains(keyword.ToLower())) {
+                        //Added new cybersecurity tip
                         return GetResponseForCategory(category.Key, userName);
+
             }
                 }
             }

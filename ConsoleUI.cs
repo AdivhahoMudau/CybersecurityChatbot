@@ -10,6 +10,7 @@ namespace CybersecurityChatbot
     internal class ConsoleUI
     {
         public void DisplayAsciiArt()
+            //Displaying cybersecurity logo
         {
             string asciiArt = @" 
     ╔══════════════════════════════════════════════════════════════════════════╗

@@ -1,9 +1,10 @@
-﻿using System;
+﻿// Cybersecurity Chatbot - Created for DISD0601 Assignment
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+// Remember: Always use strong passwords!
 namespace CybersecurityChatbot
 {
     internal class Program
