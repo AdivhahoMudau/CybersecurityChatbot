@@ -22,7 +22,8 @@ git commit -m "Added greeting.wav voice file and final polish"
 
 ✅ GitHub Actions workflow passing
 
-<img width="1341" height="183" alt="image" src="https://github.com/user-attachments/assets/a40894fd-7f25-473c-97d3-7335f7ce485e" />
+<img width="1334" height="174" alt="image" src="https://github.com/user-attachments/assets/09de1359-fbc5-49e1-9f6c-baa2ad3f93a6" />
+
 
 ## Author
 Adivhaho Angel Mudau
