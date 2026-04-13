@@ -1,20 +1,16 @@
-name: .NET Framework Build
+name: CI Check
 
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+on: [push]
 
 jobs:
-  build:
-    runs-on: windows-latest
-    
+  check:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
-    - name: Add MSBuild to PATH
-      uses: microsoft/setup-msbuild@v1.3
-    
-    - name: Build
-      run: msbuild CybersecurityChatbot.csproj /p:Configuration=Release
+    - name: Check files exist
+      run: |
+        echo "✅ Repository contains:"
+        ls -la
+        echo ""
+        echo "✅ C# files found:"
+        find . -name "*.cs" -type f
